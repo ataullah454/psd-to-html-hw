@@ -1,0 +1,140 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* //Common Css End */
+
+/* Nav Section Css Start */
+.row-1{
+    background-image: url(../3/im1.jpg);
+    padding:40px;
+}
+#navigation{
+    background-color: #02918c;
+}
+#navigation div.row{
+    justify-content: space-between;
+    align-items: center;
+}
+.container-1{
+    display: flex;
+    width: 1170px;
+    padding: 0,15px;
+    margin: 60px;
+}
+#navigation ul li a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin: 15px 0;
+    display: inline-block;
+    transition: .7s
+}
+#navigation ul li:hover a{
+    background-color: #1d55cf;
+    color: #0b1016;
+    border-radius: 15px;
+}
+/* //Nav Section Css End */
+/* //image Section Start */
+.row-1{
+text-align: center;
+}
+.headline{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-block;
+    color: #ffffff;
+}
+.headline h1{
+    font-size: 68;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+}
+.small{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.small{
+    background-color: #cfc91d;
+    color:black ;
+}
+/* //image Section Start */
+/* //about section start */
+.about{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-align: center;
+}
+.about-me{
+    color: #7e8287;
+    font-size: 23px;
+}
+h4{
+font-weight: 800px;
+}
+.product{
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+    color: #7e8287;
+}
+.service-1{
+    background-color: #f0f0e8;
+}
+.service{
+    display: inline-block;
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.product-2{
+    display: flex;
+    flex-wrap: wrap;
+    width:65%;
+    padding: 25px;
+}
+.product-1{
+    width: 50%;
+    font-size: 11px;
+    color: #7e8287;
+}
+.work{
+    font-weight: 800;
+    font-size: 46px;
+    color: #02918c;
+    text-align: center;   
+}
+.last{
+    text-align: center;
+}
+/* //about section end */
